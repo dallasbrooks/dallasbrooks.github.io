@@ -53,7 +53,7 @@ body {
 	object-fit: cover;
 }
 
-#about, porfolio, experience, resume {
+#about, #porfolio, #experience, #resume {
 	display: block;
 	max-width: 80%;
 	margin: auto;
