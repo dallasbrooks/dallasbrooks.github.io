@@ -30,15 +30,19 @@ body {
 	color: #dedede;
 }
 
+/*
 .triangle {
-    border-right: 2px solid #fff; 
-    border-bottom: 2px solid #fff;
+	display: inline-block;
+	overflow: hidden;
+    border-right: 1px solid #fff; 
+    border-bottom: 1px solid #fff;
     height: 36px;
     width: 36px;
     transform: rotate(-45deg);
 }
+*/
 
-#portrait {
+#home {
 	display: block;
 	text-align: center;
 	max-width: 80%;
@@ -53,8 +57,40 @@ body {
 	object-fit: cover;
 }
 
-#about, #portfolio, #experience, #resume {
+#about {
 	display: block;
 	max-width: 80%;
 	margin: auto;
+}
+
+#portfolio {
+	max-width: 80%;
+	margin: auto;
+}
+
+#experience {
+	text-align: center;
+	max-width: 80%;
+	margin: auto;
+}
+
+#resume {
+	max-width: 80%;
+	margin: auto;
+}
+
+#socials {
+	text-align: center;
+	max-width: 80%;
+	margin: auto;
+}
+
+#socials img {
+	height: 50px;
+	width: 50px;
+	border-radius: 20%;
+}
+
+#socials img:hover {
+	opacity: 0.9;
 }
