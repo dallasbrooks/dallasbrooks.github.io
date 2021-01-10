@@ -1,6 +1,24 @@
+/*
+	   Content
+	1. All
+	2. Nav-Bar
+	3. Home
+	4. About
+	5. Portfolio
+	6. Experience
+	7. Resume
+	8. Socials
+
+*/
+
+/* -- All --*/
+
 body {
 	font-family: "Exo 2";
+	background-color: #fcfcfc;
 }
+
+/* -- Nav-Bar --*/
 
 #nav-bar {
 	display: block;
@@ -42,6 +60,8 @@ body {
 }
 */
 
+/* -- Home --*/
+
 #home {
 	display: block;
 	text-align: center;
@@ -57,16 +77,178 @@ body {
 	object-fit: cover;
 }
 
+/* -- About --*/
+
 #about {
 	display: block;
 	max-width: 80%;
 	margin: auto;
 }
 
+.languages {
+  font-weight: bold;
+}
+
+.lang-bg {
+  height: 28px;
+  width: 90%;
+  padding-bottom: 14px;
+  background-color: #c2c2c2;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-bottom: 15px;
+}
+
+.lang {
+  display: inline-block;
+  color: #ffffee;
+  height: 28px;
+  width: 80px;
+  padding-top: 5px;
+  float: left;
+  text-align: center;
+  background-color: #204080;
+  opacity: 0.6;
+}
+
+.lang-c {
+  display: inline-block;
+  height: 28px;
+  width: 70%;
+  padding-bottom: 14px;
+  background-color: #204080;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.lang-cpp {
+  display: inline-block;
+  height: 28px;
+  width: 40%;
+  padding-bottom: 14px;
+  background-color: #204080;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.lang-css {
+  display: inline-block;
+  height: 28px;
+  width: 45%;
+  padding-bottom: 14px;
+  background-color: #204080;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.lang-java {
+  display: inline-block;
+  height: 28px;
+  width: 55%;
+  padding-bottom: 14px;
+  background-color: #204080;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.lang-py {
+  display: inline-block;
+  height: 28px;
+  width: 60%;
+  padding-bottom: 14px;
+  background-color: #204080;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.lang-asm {
+  display: inline-block;
+  height: 28px;
+  width: 52%;
+  padding-bottom: 14px;
+  background-color: #204080;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.lang-sql {
+  display: inline-block;
+  height: 28px;
+  width: 60%;
+  padding-bottom: 14px;
+  background-color: #204080;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.lang-deluge {
+  display: inline-block;
+  height: 28px;
+  width: 68%;
+  padding-bottom: 14px;
+  background-color: #204080;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.lang-html {
+  display: inline-block;
+  height: 28px;
+  width: 62%;
+  padding-bottom: 14px;
+  background-color: #204080;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.lang-js {
+  display: inline-block;
+  height: 28px;
+  width: 65%;
+  padding-bottom: 14px;
+  background-color: #204080;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.lang-julia {
+  display: inline-block;
+  height: 28px;
+  width: 35%;
+  padding-bottom: 14px;
+  background-color: #204080;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.lang-r {
+  display: inline-block;
+  height: 28px;
+  width: 33%;
+  padding-bottom: 14px;
+  background-color: #204080;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+/* -- Portfolio --*/
+
 #portfolio {
 	max-width: 80%;
 	margin: auto;
 }
+
+.proj-header i{
+	margin-bottom: auto;
+	float: right;
+	margin-right: 10%;
+	border: solid #1e396d;
+	border-width: 0 5px 5px 0;
+	padding: 3px;
+	transition: all 0.4s ease;
+	transform: rotate(-45deg);
+}
+
+.active i {
+	transform: rotate(45deg);
+}
+
+.proj-content {
+  display: none;
+  margin-left: 2%;
+  margin-bottom: 10px;
+}
+
+/* -- Experience --*/
 
 #experience {
 	text-align: center;
@@ -74,10 +256,15 @@ body {
 	margin: auto;
 }
 
+
+/* -- Resume --*/
+
 #resume {
 	max-width: 80%;
 	margin: auto;
 }
+
+/* -- Socials --*/
 
 #socials {
 	text-align: center;
@@ -89,8 +276,9 @@ body {
 	height: 50px;
 	width: 50px;
 	border-radius: 20%;
+	margin: 5px;
 }
 
 #socials img:hover {
-	opacity: 0.9;
+	opacity: 0.8;
 }
