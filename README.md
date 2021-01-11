@@ -9,3 +9,4 @@ Personal Website
 
 Credit:
 - Socials Icons are from [flaticon.com](https://www.flaticon.com/)
+- Github Stats are from [Anurag Hazra](https://github.com/anuraghazra/github-readme-stats)
