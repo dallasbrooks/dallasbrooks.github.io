@@ -114,7 +114,7 @@ body {
 .lang-c {
   display: inline-block;
   height: 28px;
-  width: 80%;
+  width: 84%;
   padding-bottom: 14px;
   background-color: #204080;
   border-top-right-radius: 25px;
@@ -123,7 +123,7 @@ body {
 .lang-cpp {
   display: inline-block;
   height: 28px;
-  width: 48%;
+  width: 56%;
   padding-bottom: 14px;
   background-color: #204080;
   border-top-right-radius: 25px;
@@ -132,7 +132,7 @@ body {
 .lang-css {
   display: inline-block;
   height: 28px;
-  width: 50%;
+  width: 64%;
   padding-bottom: 14px;
   background-color: #204080;
   border-top-right-radius: 25px;
@@ -141,7 +141,7 @@ body {
 .lang-java {
   display: inline-block;
   height: 28px;
-  width: 65%;
+  width: 76%;
   padding-bottom: 14px;
   background-color: #204080;
   border-top-right-radius: 25px;
@@ -150,7 +150,7 @@ body {
 .lang-py {
   display: inline-block;
   height: 28px;
-  width: 70%;
+  width: 80%;
   padding-bottom: 14px;
   background-color: #204080;
   border-top-right-radius: 25px;
@@ -159,7 +159,7 @@ body {
 .lang-asm {
   display: inline-block;
   height: 28px;
-  width: 64%;
+  width: 70%;
   padding-bottom: 14px;
   background-color: #204080;
   border-top-right-radius: 25px;
@@ -168,7 +168,7 @@ body {
 .lang-sql {
   display: inline-block;
   height: 28px;
-  width: 60%;
+  width: 64%;
   padding-bottom: 14px;
   background-color: #204080;
   border-top-right-radius: 25px;
@@ -177,7 +177,7 @@ body {
 .lang-deluge {
   display: inline-block;
   height: 28px;
-  width: 68%;
+  width: 76%;
   padding-bottom: 14px;
   background-color: #204080;
   border-top-right-radius: 25px;
@@ -186,7 +186,7 @@ body {
 .lang-html {
   display: inline-block;
   height: 28px;
-  width: 70%;
+  width: 72%;
   padding-bottom: 14px;
   background-color: #204080;
   border-top-right-radius: 25px;
@@ -195,7 +195,7 @@ body {
 .lang-js {
   display: inline-block;
   height: 28px;
-  width: 74%;
+  width: 78%;
   padding-bottom: 14px;
   background-color: #204080;
   border-top-right-radius: 25px;
@@ -204,7 +204,7 @@ body {
 .lang-nodejs {
   display: inline-block;
   height: 28px;
-  width: 65%;
+  width: 68%;
   padding-bottom: 14px;
   background-color: #204080;
   border-top-right-radius: 25px;
@@ -213,7 +213,7 @@ body {
 .lang-julia {
   display: inline-block;
   height: 28px;
-  width: 35%;
+  width: 40%;
   padding-bottom: 14px;
   background-color: #204080;
   border-top-right-radius: 25px;
@@ -222,7 +222,7 @@ body {
 .lang-r {
   display: inline-block;
   height: 28px;
-  width: 33%;
+  width: 42%;
   padding-bottom: 14px;
   background-color: #204080;
   border-top-right-radius: 25px;
