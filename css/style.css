@@ -91,7 +91,7 @@ body {
 
 .lang-bg {
   height: 28px;
-  width: 90%;
+  width: 100%;
   padding-bottom: 14px;
   background-color: #c2c2c2;
   border-top-right-radius: 25px;
@@ -239,7 +239,7 @@ body {
 .proj-header i{
 	margin-bottom: auto;
 	float: right;
-	margin-right: 10%;
+	margin-right: 0%;
 	border: solid #1e396d;
 	border-width: 0 5px 5px 0;
 	padding: 3px;
