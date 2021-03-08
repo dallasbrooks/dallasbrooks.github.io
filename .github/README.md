@@ -6,7 +6,7 @@ Personal Website
 
 ### Github Profile Stats
 
-![Dallas Brooks's github stats](https://github-readme-stats.vercel.app/api?username=dallasbrooks&theme=tokyonight)<br>
+![Dallas Brooks's github stats](https://github-readme-stats.vercel.app/api?username=dallasbrooks&theme=tokyonight)
 ![Dallas Brooks's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=dallasbrooks&theme=tokyonight&layout=compact)
 
 Credit:
