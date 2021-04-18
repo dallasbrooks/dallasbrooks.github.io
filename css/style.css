@@ -236,6 +236,10 @@ body {
 	margin: auto;
 }
 
+.proj-header:hover {
+  color: #204080;;
+}
+
 .proj-header i{
 	margin-bottom: auto;
 	float: right;
