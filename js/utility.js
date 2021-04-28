@@ -5,6 +5,13 @@ $(document).ready(function() {
 	$(".proj-header:first").toggleClass("active");
 	$(".proj-header:first").next(".proj-content").slideToggle("slow");
 	$(".proj-header:first").next(".proj-content").toggleClass("show");
+  var pageTitle = $("title").text();
+	$(window).blur(function() {
+		$("title").text("Wait Come Back!");
+	});
+	$(window).focus(function() {
+		$("title").text(pageTitle);
+	});
 });
 
 $(".nav-bar").click(function(){
