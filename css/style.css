@@ -48,18 +48,6 @@ body {
 	color: #dedede;
 }
 
-/*
-.triangle {
-	display: inline-block;
-	overflow: hidden;
-    border-right: 1px solid #fff; 
-    border-bottom: 1px solid #fff;
-    height: 36px;
-    width: 36px;
-    transform: rotate(-45deg);
-}
-*/
-
 /* -- Home --*/
 
 #home {
