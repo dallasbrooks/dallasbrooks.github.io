@@ -1,285 +1,119 @@
-/*
-	   Content
-	1. All
-	2. Nav-Bar
-	3. Home
-	4. About
-	5. Portfolio
-	6. Experience
-	7. Resume
-	8. Socials
-
-*/
-
-/* -- All --*/
-
-body {
-	font-family: "Exo 2";
-	background-color: #fcfcfc;
-}
-
-/* -- Nav-Bar --*/
-
-#nav-bar {
-	display: block;
-	position: relative;
-	background-color: #1e396d;
-	font-weight: bold;
-	font-size: 20px;
-	color: #000;
-	text-align: right;
-	height: 50px;
-}
-
-#nav-bar a:first-of-type {
-	float: left;
-	margin-left: 10px;
-}
-
-#nav-bar a {
-	display: inline-block;
-	text-decoration: none;
-	color: white;
-	margin-top: 10px;
-	margin-right: 10px;
-}
-
-#nav-bar a:hover {
-	color: #dedede;
-}
-
-/* -- Home --*/
-
-#home {
-	display: block;
-	text-align: center;
-	max-width: 80%;
+body{
+	background-color: #fffcf6;
+	width:  90%;
 	margin: auto;
 }
 
-.portrait {
+body div:not(nav-bar){
+	width: 90%;
+	margin: auto;
+}
+
+#nav-bar{
+	background-color: #1e396d;
+	width:  100%;
+	height: 20vh;
+	min-height: 50px;
+	max-height: 100px;
+}
+
+#nav-bar a{
+	color: #ffffff;
+	font-weight: bold;
+	vertical-align: middle;
+	padding-left: 20px;
+	text-align: right;
+}
+
+#nav-bar a:first-of-type{
+	text-align: left;
+}
+
+#about{
+	width: 70%;
+	margin: auto;
+}
+
+.portrait{
+	display: inline-block;
 	border-radius: 50%;
-	height: 150px;
-	width: 150px;
+	height: 250px;
+	width: 250px;
 	background-color: #0f380b;
 	object-fit: cover;
+	margin: 20px;
 }
 
-/* -- About --*/
+#about .bio{
+	width: 55%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px;
+}
 
-#about {
-	display: block;
-	max-width: 80%;
+#languages img{
+	width:  75px;
+	height:  75px;
+}
+
+.proj_holder {
+	display: inline-block;
+	width: 30%;
+	height: 300px;
+	perspective: 600px;
+}
+
+.proj{
+	display: inline-block;
+	width:  100%;
+	height: 100%;
 	margin: auto;
+	text-align: center;
+	position: relative;
+	transition: transform 1s;
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
 }
 
-.languages {
-  font-weight: bold;
+.card{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	backface-visibility: hidden;
 }
 
-.lang-bg {
-  height: 28px;
-  width: 100%;
-  padding-bottom: 14px;
-  background-color: #c2c2c2;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-  margin-bottom: 15px;
+.card_front {
+	background: yellow;
 }
 
-.lang {
-  display: inline-block;
-  color: #ffffee;
-  height: 28px;
-  width: 80px;
-  padding-top: 5px;
-  float: left;
-  text-align: center;
-  background-color: #204080;
-  opacity: 0.6;
+.card_front img{
+	width:  100%;
+	height: 65%;
+	background-color: grey;
 }
 
-.lang-c {
-  display: inline-block;
-  height: 28px;
-  width: 84%;
-  padding-bottom: 14px;
-  background-color: #204080;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-.lang-cpp {
-  display: inline-block;
-  height: 28px;
-  width: 56%;
-  padding-bottom: 14px;
-  background-color: #204080;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-.lang-css {
-  display: inline-block;
-  height: 28px;
-  width: 64%;
-  padding-bottom: 14px;
-  background-color: #204080;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-.lang-java {
-  display: inline-block;
-  height: 28px;
-  width: 76%;
-  padding-bottom: 14px;
-  background-color: #204080;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-.lang-py {
-  display: inline-block;
-  height: 28px;
-  width: 80%;
-  padding-bottom: 14px;
-  background-color: #204080;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-.lang-asm {
-  display: inline-block;
-  height: 28px;
-  width: 70%;
-  padding-bottom: 14px;
-  background-color: #204080;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-.lang-sql {
-  display: inline-block;
-  height: 28px;
-  width: 64%;
-  padding-bottom: 14px;
-  background-color: #204080;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-.lang-deluge {
-  display: inline-block;
-  height: 28px;
-  width: 76%;
-  padding-bottom: 14px;
-  background-color: #204080;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-.lang-html {
-  display: inline-block;
-  height: 28px;
-  width: 72%;
-  padding-bottom: 14px;
-  background-color: #204080;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-.lang-js {
-  display: inline-block;
-  height: 28px;
-  width: 78%;
-  padding-bottom: 14px;
-  background-color: #204080;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-.lang-nodejs {
-  display: inline-block;
-  height: 28px;
-  width: 68%;
-  padding-bottom: 14px;
-  background-color: #204080;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-.lang-julia {
-  display: inline-block;
-  height: 28px;
-  width: 40%;
-  padding-bottom: 14px;
-  background-color: #204080;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-.lang-r {
-  display: inline-block;
-  height: 28px;
-  width: 42%;
-  padding-bottom: 14px;
-  background-color: #204080;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
+.card_back {
+	background: blue;
+	transform: rotateY(180deg);
 }
 
-/* -- Portfolio --*/
-
-#portfolio {
-	max-width: 80%;
-	margin: auto;
+.proj:hover {
+  transform: rotateY(180deg);
 }
 
-.proj-header:hover {
-  color: #204080;;
-}
-
-.proj-header i{
-	margin-bottom: auto;
-	float: right;
-	margin-right: 0%;
-	border: solid #1e396d;
-	border-width: 0 5px 5px 0;
-	padding: 3px;
-	transition: all 0.4s ease;
-	transform: rotate(-45deg);
-}
-
-.active i {
-	transform: rotate(45deg);
-}
-
-.proj-content {
-  display: none;
-  margin-left: 2%;
-  margin-bottom: 10px;
-}
-
-/* -- Experience --*/
-
-#experience {
+#footer {
 	text-align: center;
 	max-width: 80%;
 	margin: auto;
 }
 
-
-/* -- Resume --*/
-
-#resume {
-	max-width: 80%;
-	margin: auto;
-}
-
-/* -- Socials --*/
-
-#socials {
-	text-align: center;
-	max-width: 80%;
-	margin: auto;
-}
-
-#socials img {
+#footer img {
 	height: 50px;
 	width: 50px;
 	border-radius: 20%;
 	margin: 5px;
 }
 
-#socials img:hover {
+#footer img:hover {
 	opacity: 0.8;
 }

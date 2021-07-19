@@ -1,10 +1,5 @@
-//https://www.iconfinder.com/search/?q=gmail&style=flat
-
 $(document).ready(function() {
 	$(this).scrollTop(0);
-	$(".proj-header:first").toggleClass("active");
-	$(".proj-header:first").next(".proj-content").slideToggle("slow");
-	$(".proj-header:first").next(".proj-content").toggleClass("show");
 	var pageTitle = $("title").text();
 	$(window).blur(() => {
 		$("title").text("Wait Come Back!");
@@ -15,13 +10,14 @@ $(document).ready(function() {
 });
 
 $(".nav-bar").click(function(){
-	if($(this).text() == "Dallas Brooks" || $(this).text() == "Home"){
-		console.log("here");
-		$(".page").css("display", "block");
+	var text = $(this).text().toLowerCase();
+	if(text == "dallas brooks"){
+		$(this).scrollTop(0);
+		return;
+	}else if(text == "resume"){
 		return;
 	}
-	$("#"+$(this).text().toLowerCase()).css("display", "block");
-	$(".page").not("#"+$(this).text().toLowerCase()).css("display", "none");
+	$("#"+text)[0].scrollIntoView();
 });
 
 $(".proj-header").click(function() {
