@@ -15,18 +15,26 @@ body div:not(nav-bar){
 	height: 20vh;
 	min-height: 50px;
 	max-height: 100px;
+	text-align: right;
 }
 
 #nav-bar a{
 	color: #ffffff;
 	font-weight: bold;
 	vertical-align: middle;
-	padding-left: 20px;
-	text-align: right;
+	padding-right: 20px;
+	padding-top: 20px;
+	display: inline-block;
+	text-decoration: none;
 }
 
 #nav-bar a:first-of-type{
-	text-align: left;
+	padding-left: 20px;
+	float: left;
+}
+
+#nav-bar a:hover {
+	color: #dedede;
 }
 
 #about{
@@ -83,7 +91,7 @@ body div:not(nav-bar){
 }
 
 .card_front {
-	background: yellow;
+	background: #e8e8e8;
 }
 
 .card_front img{
@@ -93,12 +101,16 @@ body div:not(nav-bar){
 }
 
 .card_back {
-	background: blue;
+	background: #e8e8e8;
 	transform: rotateY(180deg);
 }
 
 .proj:hover {
   transform: rotateY(180deg);
+}
+
+#experience {
+	text-align: center;
 }
 
 #footer {
