@@ -1,26 +1,29 @@
-body{
+body {
 	background-color: #fffcf6;
 	width:  90%;
 	margin: auto;
 }
 
-body div:not(nav-bar){
+body div:not(nav-bar) {
 	width: 90%;
 	margin: auto;
 }
 
-#nav-bar{
+#nav-bar {
+	width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
 	background-color: #1e396d;
-	width:  100%;
 	height: 20vh;
 	min-height: 50px;
 	max-height: 100px;
 	text-align: right;
 }
 
-#nav-bar a{
+#nav-bar a {
 	color: #ffffff;
 	font-weight: bold;
+	font-size: 140%;
 	vertical-align: middle;
 	padding-right: 20px;
 	padding-top: 20px;
@@ -28,53 +31,58 @@ body div:not(nav-bar){
 	text-decoration: none;
 }
 
-#nav-bar a:first-of-type{
-	padding-left: 20px;
+#nav-bar a:first-of-type {
+	padding-left: 10%;
 	float: left;
+}
+
+#nav-bar a:last-of-type {
+	padding-right: 10%;
 }
 
 #nav-bar a:hover {
 	color: #dedede;
 }
 
-#about{
+#about {
+	padding-top: 20px;
 	width: 70%;
 	margin: auto;
 }
 
-.portrait{
+.portrait {
 	display: inline-block;
 	border-radius: 50%;
-	height: 250px;
-	width: 250px;
+	height: auto;
+	width: 35%;
 	background-color: #0f380b;
 	object-fit: cover;
-	margin: 20px;
+	margin-right: 10px;
 }
 
-#about .bio{
-	width: 55%;
+#about .bio {
+	width: 60%;
 	display: inline-block;
 	vertical-align: top;
-	margin: 20px;
+	margin-left: 10px;
 }
 
-#languages img{
+#languages {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#languages img {
 	width:  75px;
 	height:  75px;
+	border-radius: 10%;
 }
 
-.proj_holder {
+.proj {
 	display: inline-block;
 	width: 30%;
 	height: 300px;
 	perspective: 600px;
-}
-
-.proj{
-	display: inline-block;
-	width:  100%;
-	height: 100%;
 	margin: auto;
 	text-align: center;
 	position: relative;
@@ -83,7 +91,7 @@ body div:not(nav-bar){
 	backface-visibility: hidden;
 }
 
-.card{
+.card {
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -94,7 +102,7 @@ body div:not(nav-bar){
 	background: #e8e8e8;
 }
 
-.card_front img{
+.card_front img {
 	width:  100%;
 	height: 65%;
 	background-color: grey;
@@ -110,7 +118,12 @@ body div:not(nav-bar){
 }
 
 #experience {
+	padding-top: 20px;
 	text-align: center;
+}
+
+#experience div {
+	padding-bottom: 20px;
 }
 
 #footer {
